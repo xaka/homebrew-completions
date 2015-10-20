@@ -6,6 +6,8 @@ class WpcliCompletion < Formula
 
   head "https://github.com/wp-cli/wp-cli.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "utils/wp-completion.bash" => "wp"
   end

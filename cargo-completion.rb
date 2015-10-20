@@ -7,6 +7,8 @@ class CargoCompletion < Formula
 
   head "https://github.com/rust-lang/cargo.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "src/etc/cargo.bashcomp.sh" => "cargo"
     zsh_completion.install "src/etc/_cargo"

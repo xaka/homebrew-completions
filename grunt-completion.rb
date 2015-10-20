@@ -5,6 +5,8 @@ class GruntCompletion < Formula
   sha256 "bb291c97f5ac5dc3f549343436f64ff066a0138565e15c794b1636d37fdc4992"
   head "https://github.com/gruntjs/grunt-cli.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "completion/bash" => "grunt"
     zsh_completion.install "completion/zsh" => "_grunt"

@@ -5,6 +5,8 @@ class BoomCompletion < Formula
   sha256 "1212ed265ef7c39298dd6630cb3f8838a120d77615301c0ee188e47501dcdef9"
   head "https://github.com/holman/boom.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "completion/boom.bash" => "boom"
     zsh_completion.install "completion/boom.zsh" => "_boom"

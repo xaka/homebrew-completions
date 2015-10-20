@@ -5,6 +5,8 @@ class AptlyCompletion < Formula
   sha256 "3b912787808e86ddd7c30555d2b09951e564956dddfe8b521f104651cfe7da96"
   head "https://github.com/aptly/aptly-bash-completion.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "aptly"
   end

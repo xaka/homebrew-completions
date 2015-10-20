@@ -6,6 +6,8 @@ class SonarCompletion < Formula
 
   head "https://github.com/a1dutch/sonarqube-bash-completion.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "etc/bash_completion.d/sonar"
   end

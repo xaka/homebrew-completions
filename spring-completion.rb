@@ -5,6 +5,8 @@ class SpringCompletion < Formula
   sha256 "a97b256dbdaca894dfa22bd96a6705ebf4f94fa8206d05f41927f062c3dd60bf"
   head "https://github.com/jacaetevha/spring_bash_completion.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "spring.bash" => "spring"
   end

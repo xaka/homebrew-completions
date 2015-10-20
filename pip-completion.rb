@@ -7,6 +7,8 @@ class PipCompletion < Formula
 
   head "https://github.com/ekalinin/pip-bash-completion.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "pip"
   end

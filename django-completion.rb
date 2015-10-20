@@ -5,6 +5,8 @@ class DjangoCompletion < Formula
   sha256 "e299627a5dbc5ef107b47bb9f4e27387d305f30e3ad71e2013c4d2525ae23188"
   head "https://github.com/django/django.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "extras/django_bash_completion" => "django"
   end

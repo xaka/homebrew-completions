@@ -6,6 +6,8 @@ class VagrantCompletion < Formula
 
   head "https://github.com/mitchellh/vagrant.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "contrib/bash/completion.sh" => "vagrant"
   end

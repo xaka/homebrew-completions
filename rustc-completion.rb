@@ -12,6 +12,8 @@ class RustcCompletion < Formula
     sha256 "0d5f4762bd93ffe09ee86c6ffffc850337ee69a8a54049c8b29a113468b39618"
   end
 
+  bottle :unneeded
+
   def install
     bash_completion.install "etc/bash_completion.d/rustc"
   end

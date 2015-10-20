@@ -5,6 +5,8 @@ class Boot2dockerCompletion < Formula
   sha256 "51d162ed4f890f9d702a215d11a2564ec44baebc38ede49f75f9b36521d856fb"
   head "https://github.com/alexandregz/boot2docker-completion.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "boot2docker-completion.bash"
   end

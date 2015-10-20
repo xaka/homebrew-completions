@@ -6,6 +6,8 @@ class TmuxinatorCompletion < Formula
 
   head "https://github.com/tmuxinator/tmuxinator.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "completion/tmuxinator.bash" => "tmuxinator"
     zsh_completion.install "completion/tmuxinator.zsh" => "_tmuxinator"

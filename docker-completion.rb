@@ -8,6 +8,8 @@ class DockerCompletion < Formula
   conflicts_with "docker",
     :because => "docker already includes these completion scripts"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "contrib/completion/bash/docker"
     fish_completion.install "contrib/completion/fish/docker.fish"

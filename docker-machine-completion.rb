@@ -6,6 +6,8 @@ class DockerMachineCompletion < Formula
 
   head "https://github.com/Ketouem/docker-machine-completions.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "docker-machine_completions.sh" => "docker-machine"
   end

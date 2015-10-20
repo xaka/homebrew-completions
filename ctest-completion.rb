@@ -5,6 +5,8 @@ class CtestCompletion < Formula
   version "1"
   sha256 "2d5378e699f8173a189049e27e1e32560a72bce95f040eaaacd06df53400b6da"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "ctest"
   end

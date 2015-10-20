@@ -5,6 +5,8 @@ class RakeCompletion < Formula
   version "1"
   sha256 "262bf355a0b1f3bf134b34baeecbf6857b326218dee5ab09d0aa22302bbd271a"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "rake.sh" => "rake"
   end

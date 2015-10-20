@@ -7,6 +7,8 @@ class MavenCompletion < Formula
 
   head "https://github.com/juven/maven-bash-completion.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "bash_completion.bash" => "maven"
   end

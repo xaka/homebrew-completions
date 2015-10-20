@@ -7,6 +7,8 @@ class GemCompletion < Formula
 
   head "https://github.com/mernen/completion-ruby.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "completion-gem" => "gem"
   end
