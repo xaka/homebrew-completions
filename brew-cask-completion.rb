@@ -1,5 +1,5 @@
 class BrewCaskCompletion < Formula
-  desc "Bash and Fish completion for brew-cask"
+  desc "Bash & Fish completion for brew-cask"
   homepage "https://github.com/xyb/homebrew-cask-completion"
   url "https://github.com/xyb/homebrew-cask-completion/archive/v2.0.tar.gz"
   sha256 "858d8b8ad5574a21220ac85025c7b36699dbb7188beca04be52596e73f34a68f"
