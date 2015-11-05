@@ -5,6 +5,8 @@ class OpenCompletion < Formula
   sha256 "3a12237e9036ef1b2eb13f0ac2409420432581ef3c2200716072082f8bc89f99"
   head "https://github.com/moshen/open-bash-completion.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "open"
   end
