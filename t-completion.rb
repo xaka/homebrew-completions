@@ -5,6 +5,8 @@ class TCompletion < Formula
   sha256 "310da36e655b9bb41032a206dc7301eb2c38cc5e0f57f7a2b2dea03d4c2fb30c"
   head "https://github.com/sferik/t.git"
 
+  bottle :unneeded
+
   def install
     bash_completion.install "etc/t-completion.sh" => "t"
     zsh_completion.install "etc/t-completion.zsh" => "_t"
